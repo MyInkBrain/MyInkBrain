@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: url("imgs/background-skull.png") no-repeat center center fixed;
+    background: url("background-skull.png") no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: lighten;
