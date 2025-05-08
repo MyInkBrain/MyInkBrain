@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equive="X-UA-Compatible" content="IE=edge">
+    <title>MyInkBrain</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="top-nav">
+        <nav>
+          <a href="/">Accueil</a>
+          <a href="mailto:support@myinkbrain.com">Contact</a>
+        </nav>
+      </header>
+      
+      
+<!-- Header -->
+    <header>
+        <div class="logo">MyInkBrain</div>
+    </header>
+<!-- Header -->
+
+
+<!-- Présentation -->
+    <section class="hero">
+        <h1>Obtenez une idée de tatouage unique en quelques instants.</h1>
+        <p class="subtitle">Entrez quelques mots-clés, recevez un design unique et sa signification directement par e-mail.</p>
+        <a href="#formulaire" class="cta-button">Créer mon idée de tatouage</a>
+    </section>
+<!-- Présentation -->
+
+
+<!-- Images -->
+    <section class="examples">
+        <h2>Exemples de créations</h2>
+        <div class="gallery">
+            <div class="card">
+                <img src="imgs/hibou.png" alt="Tatouage hibou" />
+                <p class="keywords">hibou · sagesse · minimaliste</p>
+                <p class="description">Symbole de clairvoyance et de connaissance intérieure.</p>
+            </div>
+            <div class="card">
+                <img src="imgs/boussole.png" alt="Tatouage boussole" />
+                <p class="keywords">boussole · montagnes · aventure</p>
+                <p class="description">Représente la recherche de direction et le goût de l’exploration.</p>
+            </div>
+            <div class="card">
+                <img src="imgs/oldschool.png" alt="Tatouage old school serpent et dague" />
+                <p class="keywords">serpent · dague · old school</p>
+                <p class="description">Symbole de défense, de transformation et de puissance cachée. Inspiré du style traditionnel américain.</p>
+            </div>
+        </div>
+    </section>
+<!-- Images -->
+
+
+<!-- PRIX -->
+    <section class="pricing">
+        <h2>Choisissez votre pack</h2>
+        <div class="pricing-options">
+            <div class="price-card">
+                <h3>1 idée</h3>
+                <p class="price">1,99 €</p>
+                <p>Un visuel + sa signification</p>
+            </div>
+            <div class="price-card popular">
+                <h3>3 idées</h3>
+                <p class="price">4,99 €</p>
+                <p>Idéal pour comparer plusieurs styles</p>
+            </div>
+            <div class="price-card">
+                <h3>10 idées</h3>
+                <p class="price">9,99 €</p>
+                <p>Le pack complet à petit prix</p>
+            </div>
+        </div>
+        <p class="secure">Paiement sécurisé <i class="fa-regular fa-credit-card"></i> <i class="fa-brands fa-paypal"></i> <i class="fa-brands fa-apple-pay"></i> <i class="fa-brands fa-google-pay"></i></p>
+        <a href="#formulaire" class="cta-button">Créer mon idée maintenant</a>
+    </section>
+<!-- PRIX -->
+
+
+<!-- FORMULAIRE -->
+    <section class="order-form" id="formulaire">
+            <h2>Créez votre idée de tatouage</h2>
+        <form action="#" method="POST">
+            <div id="loader" style="display: none;">Envoi en cours...</div>
+            <label for="keywords">Mots-clés (3 max) :</label>
+            <input type="text" id="keywords" name="keywords" placeholder="ex : loup, forêt, minimaliste" required>
+      
+            <label for="style">Style souhaité :</label>
+            <select id="style" name="style">
+                <option value="réaliste">Réaliste</option>
+                <option value="minimaliste">Minimaliste</option>
+                <option value="géométrique">Géométrique</option>
+                <option value="old-school">Old School</option>
+                <option value="japonais">Japonais</option>
+            </select>
+      
+            <label for="email">Votre adresse email :</label>
+            <input type="email" id="email" name="email" placeholder="ex : vous@email.com" required>
+      
+            <label for="pack">Nombre d’idées :</label>
+            <select id="pack" name="pack">
+                <option value="1">1 idée – 1,99 €</option>
+                <option value="3">3 idées – 4,99 €</option>
+                <option value="10">10 idées – 9,99 €</option>
+            </select>
+      
+            <button type="submit">Valider et procéder au paiement</button>
+        </form>
+    </section>
+<!-- FORMULAIRE -->
+
+
+<!-- FAQ -->
+    <section class="faq">
+        <h2>Foire aux questions</h2>
+      
+        <div class="question">
+            <h3>💡 Comment fonctionne MyInkBrain ?</h3>
+            <p>Vous nous transmettez quelques mots-clés et un style souhaité, et nous concevons pour vous une idée de tatouage originale et personnalisée. Chaque création comprend une illustration et une description symbolique.</p>
+        </div>
+      
+        <div class="question">
+            <h3>⏱ Sous combien de temps vais-je recevoir mon idée ?</h3>
+            <p>La plupart des idées sont envoyées dans un délai moyen de 30 minutes. En cas de forte demande, le délai peut aller jusqu’à 2 heures maximum.</p>
+        </div>
+      
+        <div class="question">
+            <h3>🎨 Qui crée les idées de tatouage ?</h3>
+             <p>Notre processus s’appuie sur un système créatif automatisé conçu pour produire des visuels uniques et cohérents à partir des éléments que vous fournissez.</p>
+        </div>
+      
+        <div class="question">
+            <h3>📦 Que contient exactement une "idée" ?</h3>
+            <p>Une idée comprend une illustration originale de tatouage (au format image) et une description synthétique de sa signification ou symbolique potentielle.</p>
+        </div>
+      
+        <div class="question">
+            <h3>💰 Puis-je me faire rembourser ?</h3>
+            <p>Nos produits étant des créations numériques personnalisées livrées rapidement, ils ne sont pas remboursables conformément à l'article L221-28 du Code de la consommation.</p>
+        </div>
+      
+        <div class="question">
+            <h3>📧 Je n’ai pas reçu mon email, que faire ?</h3>
+            <p>Merci de vérifier votre dossier de courriers indésirables. Si vous ne trouvez rien après 2 heures, contactez-nous à <a href="mailto:support@myinkbrain.com">support@myinkbrain.com</a>, nous vous répondrons sous 48 heures.</p>
+        </div>
+    </section>
+<!-- FAQ -->
+
+
+<!-- FOOTER -->
+    <footer class="site-footer">
+        <p>© 2025 MyInkBrain – Tous droits réservés</p>
+        <nav>
+        <a href="/mentions-legales.html">Mentions légales</a> ·
+        <a href="/cgv.html">CGV</a> ·
+        <a href="/confidentialite.html">Confidentialité</a>
+        </nav>
+    </footer>  
+<!-- FOOTER -->
+
+    <script src="script.js"></script>
+    
+    <button id="backToTop" title="Retour en haut">↑</button>
+    <script>
+      const btn = document.getElementById("backToTop");
+      window.onscroll = () => {
+        btn.style.display = window.scrollY > 400 ? "block" : "none";
+      };
+      btn.onclick = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>  
+</body>
+</html>
