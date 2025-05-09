@@ -2,33 +2,33 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: url("background-skull.png") no-repeat center center fixed;
+    background: url("imgs/background-skull.png") no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: lighten;
-    color: #333;
+    color: white;
 }
   
 body::before {
     content: "";
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(255, 255, 255, 0.8); /* tu peux baisser à 0.8 pour plus de contraste */
+    background-color: black; /* tu peux baisser à 0.8 pour plus de contraste */
     z-index: -1;
 }
     
   
 /* Header styling */
 header {
-    background-color: #ffffff;
+    background-color: black;
     padding: 20px 40px;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid black;
 }
   
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #333333;
+    color: white;
 }
 
 
@@ -36,18 +36,18 @@ header {
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background-color: #ffffff;
+    background-color: black;
 }
   
 .hero h1 {
     font-size: 32px;
-    color: #222222;
+    color: white;
     margin-bottom: 20px;
 }
   
 .subtitle {
     font-size: 18px;
-    color: #555555;
+    color: white;
     max-width: 600px;
     margin: 0 auto 30px auto;
 }
@@ -55,7 +55,7 @@ header {
 .cta-button {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #6c4df4;
+    background-color: green;
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
@@ -66,7 +66,7 @@ header {
 }
   
 .cta-button:hover {
-    background-color: #523ad9;
+    background-color: green;
     scale: 1.05;
 }
 
@@ -74,13 +74,13 @@ header {
 /* Examples section */
 .examples {
     padding: 60px 20px;
-    background-color: #f9f9f9;
+    background-color: black;
     text-align: center;
 }
   
 .examples h2 {
     font-size: 28px;
-    color: #222;
+    color: white;
     margin-bottom: 40px;
 }
   
@@ -94,7 +94,7 @@ header {
 }
   
 .card {
-    background: #ffffff;
+    background: white;
     border-radius: 12px;
     padding: 20px;
     width: 280px;
@@ -109,25 +109,25 @@ header {
   
 .keywords {
     font-weight: bold;
-    color: #6c4df4;
+    color: green;
     margin-bottom: 10px;
 }
   
 .description {
     font-size: 14px;
-    color: #444;
+    color: black;
 }
 
 /* Pricing section */
 .pricing {
-    background-color: #ffffff;
+    background-color: black;
     padding: 60px 20px;
     text-align: center;
 }
   
 .pricing h2 {
     font-size: 28px;
-    color: #222;
+    color: white;
     margin-bottom: 40px;
 }
   
@@ -140,11 +140,11 @@ header {
 }
   
 .price-card {
-    background: #f5f5f5;
+    background: white;
     padding: 30px;
     border-radius: 12px;
     width: 240px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
 }
   
@@ -155,30 +155,34 @@ header {
 .price-card h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #333;
+    color: green;
 }
   
 .price {
     font-size: 24px;
     font-weight: bold;
-    color: #6c4df4;
+    color: green;
     margin-bottom: 10px;
+}
+
+.price-card p {
+    color: green;
 }
   
 .price-card.popular {
-    background-color: #ece8ff;
-    border: 2px solid #6c4df4;
+    background-color: black;
+    border: 2px solid green;
 }
   
 .secure {
     font-size: 14px;
-    color: #888;
+    color: white;
     margin-bottom: 20px;
 }
   
 /* Form section */
 .order-form {
-    background-color: #f4f4f4;
+    background-color: black;
     padding: 60px 20px;
     text-align: center;
 }
@@ -186,7 +190,7 @@ header {
 .order-form h2 {
     font-size: 26px;
     margin-bottom: 30px;
-    color: #222;
+    color: white;
 }
   
 .order-form form {
@@ -206,13 +210,13 @@ header {
 .order-form select {
     padding: 12px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid green;
     border-radius: 8px;
 }
   
 .order-form button {
     padding: 14px;
-    background-color: #6c4df4;
+    background-color: green;
     color: white;
     border: none;
     border-radius: 8px;
@@ -222,21 +226,21 @@ header {
 }
   
 .order-form button:hover {
-    background-color: #523ad9;
+    background-color: green;
 }
   
 
 .site-footer {
-    background-color: #f9f9f9;
+    background-color: black;
     text-align: center;
     padding: 30px 20px;
     font-size: 14px;
-    color: #777;
-    border-top: 1px solid #e5e5e5;
+    color: green;
+    border-top: 1px solid black;
 }
   
 .site-footer nav a {
-    color: #6c4df4;
+    color: white;
     text-decoration: none;
     margin: 0 8px;
 }
@@ -249,8 +253,8 @@ header {
 .top-nav {
     position: sticky;
     top: 0;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e5e5e5;
+    background-color: black;
+    border-bottom: 1px solid black;
     padding: 10px 20px;
     text-align: right;
     z-index: 1000;
@@ -259,7 +263,7 @@ header {
 .top-nav nav a {
     margin-left: 20px;
     font-size: 14px;
-    color: #6c4df4;
+    color: green;
     text-decoration: none;
     font-weight: 500;
 }
@@ -292,7 +296,7 @@ html {
     bottom: 30px;
     right: 30px;
     z-index: 100;
-    background-color: #6c4df4;
+    background-color: green;
     color: white;
     border: none;
     padding: 12px 16px;
@@ -304,13 +308,13 @@ html {
 }
   
 #backToTop:hover {
-    background-color: #523ad9;
+    background-color: green;
 }
 
 #loader {
     margin-top: 20px;
     font-size: 16px;
-    color: #6c4df4;
+    color: green;
     animation: blink 1s infinite;
 }
   
@@ -319,4 +323,7 @@ html {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.5; }
 }
-  
+
+.faq .question a {
+    color: white;
+}
