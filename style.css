@@ -20,7 +20,7 @@ body::before {
   
 /* Header styling */
 header {
-    background-color: ;
+    background-color: white;
     padding: 20px 40px;
     border-bottom: 1px solid #eaeaea;
 }
@@ -74,7 +74,7 @@ header {
 /* Examples section */
 .examples {
     padding: 60px 20px;
-    background-color: ;
+    background-color: white;
     text-align: center;
 }
   
@@ -249,7 +249,7 @@ header {
 .top-nav {
     position: sticky;
     top: 0;
-    background-color: ;
+    background-color: white;
     border-bottom: 1px solid #e5e5e5;
     padding: 10px 20px;
     text-align: right;
