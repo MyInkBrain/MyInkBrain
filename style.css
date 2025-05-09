@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: url("background-skull.png") no-repeat center center fixed;
+    background: url("imgs/background-skull.png") no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: lighten;
@@ -13,14 +13,14 @@ body::before {
     content: "";
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(255, 255, 255, 0.85); /* tu peux baisser à 0.8 pour plus de contraste */
+    background-color: rgba(255, 255, 255, 0.8); /* tu peux baisser à 0.8 pour plus de contraste */
     z-index: -1;
 }
     
   
 /* Header styling */
 header {
-    background-color: white;
+    background-color: #ffffff;
     padding: 20px 40px;
     border-bottom: 1px solid #eaeaea;
 }
@@ -74,7 +74,7 @@ header {
 /* Examples section */
 .examples {
     padding: 60px 20px;
-    background-color: white;
+    background-color: #f9f9f9;
     text-align: center;
 }
   
@@ -249,7 +249,7 @@ header {
 .top-nav {
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: #ffffff;
     border-bottom: 1px solid #e5e5e5;
     padding: 10px 20px;
     text-align: right;
@@ -319,3 +319,4 @@ html {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.5; }
 }
+  
